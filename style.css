@@ -66,9 +66,16 @@ body {
 
 
 @media (max-width: 739px){
+	.menu {
+		text-align: center;
+	}
 	.menunav {
 		float: none;
 		clear: both;
+	}
+	a.menulogo {
+		float: none;
+		margin: 0 auto;
 	}
 }
 
@@ -332,6 +339,27 @@ h4.produto-mineiro::before {
 	padding: 10px 20px;
 }
 
+
+@media (min-width: 740px) and (max-width: 980px) {
+	.locais {
+	max-width: 720px;
+	}
+	.locais-item > div, .locais-item img {
+	width: 340px;
+	}
+}
+
+@media (max-width: 739px) {
+	.locais {
+	max-width: 300px;
+	}
+	.locais-item > div, .locais-item img {
+	width: 300px;
+	margin: 0px;
+	}
+}
+
+
 /*ASSINE*/
 
 .assine {
@@ -399,6 +427,34 @@ h4.produto-mineiro::before {
 	cursor: pointer;	
 }
 
+
+
+@media (min-width: 740px) and (max-width: 980px) {
+	.assine-container {
+	max-width: 720px;
+}
+	.assine-info {
+	width: 340px;
+}
+	.assine form {
+	width: 340px;
+}
+	.assine input {
+	width: 	340px;
+}
+}
+
+@media (max-width: 739px) {
+	.assine-container {
+	max-width: 300px;
+}
+	.assine-info, .assine form, .assine input {
+	width: 300px;
+	margin: 10px 0 0 0;
+}
+}
+
+
 /*FOOTER*/
 
 .footer {
@@ -430,6 +486,20 @@ h4.produto-mineiro::before {
 	display: block;	
 }
 
+
+@media (max-width: 739px) {
+	.footer-container{
+	max-width: 	300px;
+	}
+	.footer p {
+	float: none;	
+	margin: 0px;
+	}
+	.footer img {
+	float: 	none;
+	margin:	10px 0;	
+	}
+}
 
 
 
