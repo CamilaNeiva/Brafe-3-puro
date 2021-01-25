@@ -1,3 +1,12 @@
+/*
+Breakpoints
+
+960
+
+740
+*/
+
+
 /*Reset*/
 
 body, h1, h2, h3, p, ul{
@@ -56,6 +65,13 @@ body {
 }
 
 
+@media (max-width: 739px){
+	.menunav {
+		float: none;
+		clear: both;
+	}
+}
+
 /*INTRO*/
 
 .intro {
@@ -83,6 +99,12 @@ body {
 .intro p {
 	font-style: italic;
 	font-size: 1.125em;
+}
+
+@media (max-width: 739px){
+	.intro {
+		padding: 60px 0;
+	}
 }
 
 /*SOBRE*/
@@ -114,7 +136,7 @@ body {
 	margin: 0 10px;	
 }
 
-.sobrte-item img {
+.sobre-item img {
 	display: block;
 	max-width: 100%;
 }
@@ -141,6 +163,27 @@ body {
 	margin: 20px auto;
 	max-width: 460px;
 }
+
+
+@media (min-width: 740px) and (max-width: 980px) {
+	.sobre-container {
+		max-width: 720px;
+	}
+	.sobre-item {
+		width: 340px;
+	}
+}
+
+
+@media (max-width: 739px) {
+	.sobre-container {
+		max-width: 300px;
+	}
+	.sobre-item {
+		width: 300px;
+		margin: 0 auto;
+	}
+}	
 
 /*PRODUTO*/
 
@@ -215,6 +258,25 @@ h4.produto-mineiro::before {
 	text-align: center;
 	padding: 15px 0;
 	margin:	20px auto;
+}
+
+
+@media (min-width: 740px) and (max-width: 980px) {
+	.produto-container {
+		max-width: 720px;
+	}
+	.produto-item {
+		width: 220px;
+	}
+}
+
+@media (max-width: 739px) {
+	.produto-container {
+		max-width: 300px;
+	}
+	.produto-item {
+		margin: 0 auto 20px auto;
+	}
 }
 
 /*LOCAIS*/
